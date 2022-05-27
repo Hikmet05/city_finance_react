@@ -1,0 +1,18 @@
+.form_section {
+    background-color: #F0FFFC;
+    padding: 50px 0 35px 0;
+}
+
+.form_section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.left_side, .right_side {
+    background-color: #fff;
+    width: 567px;
+    height: 372px;
+    border-radius: 6px;
+}

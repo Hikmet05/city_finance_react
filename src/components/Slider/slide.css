@@ -1,0 +1,32 @@
+.slider_section {
+  background-color: #F5FFFC;
+}
+
+.slider_section .container h2 {
+  color: var(--gray1);
+  font-size: 36px;
+  font-weight: 700;
+  padding: 50px 0 50px 0;
+}
+
+.slick-dots {
+  margin-top: 50px !important;
+  position: static !important;
+}
+
+.slick-dots li {
+  margin: 0 0.25rem;
+}
+
+.slick-dots button {
+  border: none;
+  border-radius: 100%;
+  background-color: #CEFBFF !important;
+  text-indent: -99999px;
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #00A5B4 !important;
+}

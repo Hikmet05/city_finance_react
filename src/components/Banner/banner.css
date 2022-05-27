@@ -1,0 +1,65 @@
+
+
+/*==============BANNER_SECTION==============*/
+
+.banner_section {
+    background: linear-gradient(180deg, #E5FFFA 0%, rgba(229, 255, 249, 0.262661) 83.7%, rgba(229, 255, 249, 0) 100%);
+  }
+  
+  
+  .banner .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .banner_text {
+    width: 33.5%;
+    position: relative;
+  }
+  
+  .banner_text_content {
+    position: absolute;
+    top: 150px;
+  }
+  
+  .banner_text h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: var(--primary-blue);
+  }
+  
+  .banner_text h1 span {
+    color: var(--dark-gray);
+  }
+  
+  .banner_text_content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .banner_poster {
+    width: 67.5%;
+    height: 530px;
+    background-image: url(../../image/Reklam.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  /*================BANNER_BOTTOM_SECTION===========*/
+  
+  .banner_bottom_section {
+    background-color: #feffff;
+    padding: 50px 0;
+  }
+  
+  .banner_bottom_section .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+  }
+  
+ 

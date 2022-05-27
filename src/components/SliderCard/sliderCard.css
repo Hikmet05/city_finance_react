@@ -1,0 +1,36 @@
+.slider_card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--gray1);
+    margin: 28px 0 8px 16px;
+  }
+  
+  .slider_card {
+    width: 276px;
+    transition: 0.3s;
+
+  }
+  .slider_card:hover {
+    transform: scale(0.9);
+  }
+
+  .slider_card_img {
+    overflow: hidden;
+    height: 165px;
+  }
+
+  .slider_card_img img {
+    object-fit: contain;
+  }
+  
+  .slider_text {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 16px;
+  }
+
+  .slide_date span:first-of-type {
+    color: rgba(0, 0, 0, 0.35);
+    font-weight: 500;
+  }

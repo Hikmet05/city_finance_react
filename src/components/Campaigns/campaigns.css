@@ -1,0 +1,11 @@
+.campaigns_box {
+    display: flex;
+    gap: 19px;
+}
+
+.campaigns_section h6 {
+    margin: 50px 0 25px 0;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--gray1);
+}
